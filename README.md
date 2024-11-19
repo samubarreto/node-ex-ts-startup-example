@@ -167,19 +167,21 @@ export class SeuController {
 }
 ```
 
-# Acho que é isso
+---
 
-Rodar a api
+### Acho que é isso
+
+- Rodar a api
 ```bash
 npm run dev
 ```
 
-Buildar a api
+- Buildar a api
 ```bash
 npm run build
 ```
 
-Rodar a versão buildada da api
+- odar a versão buildada da api
 ```bash
 npm run start
 ```
