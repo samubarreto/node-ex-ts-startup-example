@@ -1,4 +1,4 @@
-﻿# node-ex-ts-startup
+﻿# node-ex-ts-startup-example
 ##### Como iniciar um projeto nodejs backend com express e typescript configurado, bem resumido
 ![My Skills](https://skillicons.dev/icons?i=ts,nodejs,express,mongodb)
 
