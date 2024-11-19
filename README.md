@@ -185,3 +185,7 @@ npm run build
 ```bash
 npm run start
 ```
+
+---
+
+[@samubarreto](https://www.linkedin.com/in/samubrreto)
