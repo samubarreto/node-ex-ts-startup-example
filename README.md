@@ -1,5 +1,5 @@
 ﻿# node-ex-ts-startup-example
-##### Como iniciar um projeto nodejs backend com express e typescript configurado, bem resumido
+##### Como iniciar um projeto nodejs backend com express, mongodb e typescript configurado, bem resumido:
 ![My Skills](https://skillicons.dev/icons?i=ts,nodejs,express,mongodb)
 
 1. Inicie o projeto e instale o express
