@@ -68,14 +68,14 @@ npx tsc --init
 npm i
 ```
 
-6. Crie um arquivo com nome ".env" e preencha-o com suas variáveis de ambiente:
+6. Crie um arquivo com nome ".env" na raíz do projeto e preencha-o com suas variáveis de ambiente:
 ```env
 BACKENDPORT=5001
 MONGODB_CONNSTRING=
 MONGODB_DB_NAME=teste_db
 ```
 
-7. Crie a pasta ./src
+7. Crie a pasta ./src na raíz do projeto
 
 8. Crie o arquivo index.ts dentro de src, use o conteúdo abaixo como base:
 ```ts
@@ -130,7 +130,7 @@ export function createRoutes(db: Db) {
 }
 ```
 
-10. Crie o arquivo .gitignore na raíz, use o conteúdo abaixo como base:
+10. Crie o arquivo .gitignore na raízd o seu projeto, use o conteúdo abaixo como base:
 ```txt
 node_modules/
 .env
