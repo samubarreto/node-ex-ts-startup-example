@@ -143,7 +143,7 @@ build/
 ```ts
 import { Db } from "mongodb";
 
-export class SeuService {
+export class SeuService { // crie a interface ISeuService e implemente-a
   constructor(private db: Db) { }
 
   healthcheck(): string {
@@ -158,7 +158,7 @@ import { Request, Response } from 'express';
 import { SeuService } from '../services/SeuService';
 
 export class SeuController {
-  constructor(private seuService: SeuService) { } // crie uma interface ISeuService
+  constructor(private seuService: SeuService) { } // dependa da sua interface, não da implementação
 
   healthcheck = (req: Request, res: Response) => {
     const result = this.seuService.healthcheck();
