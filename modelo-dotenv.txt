@@ -1,0 +1,5 @@
+Crie um arquivo .env e coloque suas variáveis de ambiente, segue o exemplo abaixo
+
+BACKENDPORT=5001
+MONGODB_CONNSTRING=
+MONGODB_DB_NAME=teste_db
