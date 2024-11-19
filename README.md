@@ -130,7 +130,7 @@ export function createRoutes(db: Db) {
 }
 ```
 
-10. Crie o arquivo .gitignore na raízd o seu projeto, use o conteúdo abaixo como base:
+10. Crie o arquivo .gitignore na raíz do seu projeto, use o conteúdo abaixo como base:
 ```txt
 node_modules/
 .env
