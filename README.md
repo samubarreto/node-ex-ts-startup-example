@@ -181,7 +181,7 @@ npm run dev
 npm run build
 ```
 
-- odar a versão buildada da api
+- Rodar a versão buildada da api
 ```bash
 npm run start
 ```
