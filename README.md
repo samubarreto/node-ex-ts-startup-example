@@ -11,14 +11,15 @@ npm init -y
 ```json
 {
   "name": "exemplo",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
   "description": "exemplo",
   "main": "src/index.ts",
   "scripts": {
     "build": "rimraf ./build && tsc",
-    "start": "node build/index.js",
-    "dev": "ts-node-dev src/index.ts"
+    "serve": "node build/index.js",
+    "dev": "ts-node-dev src/index.ts",
+    "prod": "npm run build && npm run serve"
   },
   "dependencies": {
     "cors": "^2.8.5",
