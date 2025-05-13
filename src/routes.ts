@@ -1,14 +1,20 @@
 import { Router } from "express";
 import { Db } from "mongodb";
-import { SeuService } from "./services/SeuService";
-import { SeuController } from "./controllers/SeuController";
+import { ExampleService } from "./services/ExampleService";
+import { ExampleController } from "./controllers/ExampleController";
 
 export function createRoutes(db: Db) {
   const router = Router();
 
-  const seuService = new SeuService(db);
-  const seuController = new SeuController(seuService);
-  router.get('/', seuController.healthcheck);
+  const exampleService = new ExampleService(db, "example_db");
+  const exampleController = new ExampleController(exampleService);
+
+  router.get('/', exampleController.healthcheck);
+  router.get('/examples', exampleController.list);
+  router.get('/examples/:id', exampleController.getById);
+  router.post('/examples', exampleController.create);
+  router.put('/examples/:id', exampleController.update);
+  router.delete('/examples/:id', exampleController.delete);
 
   return router;
 }
