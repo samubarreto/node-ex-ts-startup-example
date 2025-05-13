@@ -1,0 +1,131 @@
+{
+  "info": {
+    "name": "Example API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Healthcheck",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            ""
+          ]
+        }
+      }
+    },
+    {
+      "name": "List Examples",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/examples",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "examples"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Example by ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/examples/:id",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "examples",
+            ":id"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Example",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"passwordHash\": \"hash123\",\n  \"createdAt\": \"2025-05-13T23:32:58.850662\",\n  \"updatedAt\": \"2025-05-13T23:32:58.850669\",\n  \"isActive\": true,\n  \"role\": \"user\",\n  \"avatarUrl\": \"https://example.com/avatar.png\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/examples",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "examples"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Update Example",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"John Updated\",\n  \"email\": \"john.updated@example.com\",\n  \"isActive\": false\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/examples/:id",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "examples",
+            ":id"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Delete Example",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/examples/:id",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "examples",
+            ":id"
+          ]
+        }
+      }
+    }
+  ]
+}
