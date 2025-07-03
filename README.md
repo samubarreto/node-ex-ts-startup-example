@@ -4,22 +4,22 @@
 
 ###### Comece clonando o projeto, por gentileza.
 
-###### 1. Rodar a api
+###### Rodar a api
 ```bash
 npm run dev
 ```
 
-###### 2. Buildar a api
+###### Buildar a api
 ```bash
 npm run build
 ```
 
-###### 3. Rodar a versão buildada da api
+###### Rodar a versão buildada da api
 ```bash
 npm run serve
 ```
 
-###### 4. Buildar e rodar o build da api
+###### Buildar e rodar o build da api
 ```bash
 npm run prod
 ```
