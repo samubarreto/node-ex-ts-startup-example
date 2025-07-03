@@ -1,4 +1,4 @@
-# 🚀 node-ex-ts-startup-example
+# node-ex-ts-startup-example
 
 Início de um projeto backend com **Node.js**, **Express**, **MongoDB** e **TypeScript**.
 
