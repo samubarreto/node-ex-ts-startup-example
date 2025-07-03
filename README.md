@@ -1,29 +1,49 @@
-﻿# node-ex-ts-startup-example
-##### Início de um projeto nodejs backend com express, mongodb e typescript configurado. Já está com um logging meia boca implementado, um tratamento de exceções e implementações genéricas pra controllers e serviços de crud e query.
-![My Skills](https://skillicons.dev/icons?i=ts,nodejs,express,mongodb) 
+# 🚀 node-ex-ts-startup-example
 
-###### Comece clonando o projeto, por gentileza.
+Início de um projeto backend com **Node.js**, **Express**, **MongoDB** e **TypeScript**.
 
-###### Rodar a api
-```bash
-npm run dev
-```
-
-###### Buildar a api
-```bash
-npm run build
-```
-
-###### Rodar a versão buildada da api
-```bash
-npm run serve
-```
-
-###### Buildar e rodar o build da api
-```bash
-npm run prod
-```
+Conta com:
+- Logging básico implementado
+- Tratamento global de exceções
+- Implementações genéricas de **controllers** e **serviços** para operações **CRUD** e **Query**
 
 ---
 
-[@samubarreto](https://www.linkedin.com/in/samubrreto)
+## 📦 Tecnologias utilizadas
+
+![My Skills](https://skillicons.dev/icons?i=ts,nodejs,express,mongodb) 
+
+- **Node.js** – Ambiente de execução
+- **Express** – Framework web
+- **MongoDB** – Banco de dados NoSQL
+- **TypeScript** – Superset do JavaScript com tipagem
+- **ts-node-dev** – Execução em tempo real no desenvolvimento
+- **dotenv** – Gerenciamento de variáveis de ambiente
+
+---
+
+## 🧰 Scripts disponíveis
+
+| Comando                | Descrição                                 |
+|------------------------|-------------------------------------------|
+| `npm run dev`          | Inicia a API em modo desenvolvimento       |
+| `npm run build`        | Gera o build da aplicação em `/build`     |
+| `npm run serve`        | Executa a versão buildada (`build/index.js`) |
+| `npm run prod`         | Builda e executa a versão buildada         |
+
+---
+
+## ▶️ Comece agora
+
+```bash
+# Clone o repositório
+git clone https://github.com/samubarreto/node-ex-ts-startup-example.git
+
+# Acesse a pasta do projeto
+cd node-ex-ts-startup-example
+
+# Instale as dependências
+npm install
+
+# Rode em modo desenvolvimento
+npm run dev
